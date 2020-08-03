@@ -1,0 +1,16 @@
+*.swp
+bd/valet.ko
+bd/valet.mod.c
+bd/modules.order
+bd/.tmp_versions
+bd/Module.symvers
+bd/*.o
+bd/*.cmd
+bd/*.ur-safe
+daemon/daemon
+daemon/*.o
+daemon/.*.swp
+daemon/.*.swn
+bd/.*.swo
+bd/.*.swp
+bd/.*.swn
