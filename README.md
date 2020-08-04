@@ -50,7 +50,7 @@ cd ~/valet/daemon
 ```bash
 cd ~/valet/setup/
 ~/ib_setup.sh 100.10.10.0
-sudo swapoff /dev/sda3
+sudo swapoff /dev/sda3 -> we swap off current 1st priority swap partition(It may vary on systems).
 sudo ~/bd_setup.sh 0
 ```
 
