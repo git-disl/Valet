@@ -1,4 +1,8 @@
 /*
+ * Valet: Efficient Orchestration of Host and Remote Shared Memory
+ *        for Memory IntensiveWorkloads
+ * Copyright 2020 Georgia Institute of Technology.
+ *
  * Copyright (c) 2005 Ammasso, Inc. All rights reserved.
  * Copyright (c) 2006 Open Grid Computing, Inc. All rights reserved.
  *
