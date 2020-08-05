@@ -85,13 +85,19 @@ valet/bd/valet_drv.h
 - BACKUP_DISK [string]
 
   Set disk partition path is diskbackup is used. 
+  
+- DISKBACKUP
 
-  (By default, Valet does not use diskbackup. Use replication)
-
+  By default, Valet does not use diskbackup. Use replication.
+  
 ```bash
 #define SWAPSPACE_SIZE_G        40
 #define BACKUP_DISK     "/dev/sda4"
+
+// comment below to disable "always-disk-backup"
+//#define DISKBACKUP
 ```
+
 
 ## Supported Platforms
 
