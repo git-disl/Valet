@@ -37,6 +37,8 @@ vi valet/setup/portal.list
 100.10.10.2:9999
 100.10.10.3:9999
 ```
+*Important note : portal.list must be same in all peer node. In other words, the order of peer nodes in the list should be same. 
+
 
 (Peer nodes: repeat this for peer2 and 3)
 ```bash
