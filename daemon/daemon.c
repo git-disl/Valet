@@ -1081,7 +1081,7 @@ static int rping_bind_server(struct rping_cb *cb)
         port = ntohs(rdma_get_src_port(cb->cm_id));
 
         inet_ntop(AF_INET6, rdma_get_local_addr(cb->cm_id), buffer, 20);
-        printf("Infiniswap %s : listening on port %s %d.\n",__func__,buffer, port);
+        printf("%s : listening on port %s %d.\n",__func__,buffer, port);
 
 	return 0;
 }
